@@ -13,6 +13,21 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        "955px": "955px",
+        "830px": "830px",
+        "400px": "400px",
+      },
+      gridTemplateColumns: {
+        auto: "repeat(auto-fit, minmax(300px, 1fr))",
+      },
+      colors: {
+        instaOrange: "#f09433",
+        instaRed: "#e6683c",
+        instaPink: "#dc2743",
+        instaPurple: "#cc2366",
+        instaDeepPurple: "#bc1888",
+      },
     },
   },
   plugins: [],

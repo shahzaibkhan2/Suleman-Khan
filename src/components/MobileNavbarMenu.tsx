@@ -1,6 +1,9 @@
+"use client"
+import { useState } from "react";
 import { IoClose } from "react-icons/io5";
 
 const MobileNavbarMenu = () => {
+  const [navMenu, setNavMenu] = useState(false)
   
   return (
     <ul

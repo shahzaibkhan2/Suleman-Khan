@@ -28,6 +28,77 @@ const config: Config = {
         instaPurple: "#cc2366",
         instaDeepPurple: "#bc1888",
       },
+      animation: {
+        slideLeft: "slideLeft 1.2s ease-in-out",
+        slideUp: "slideUp 1.1s ease-out forwards",
+
+        slideBottom: "slideBottom 1.1s ease-out forwards",
+        slideUpHigher: "slideUpHigher 1.7s ease-out forwards",
+        spinBackForth: "spinBackForth 2s ease-in-out infinite",
+      },
+      keyframes: {
+        slideLeft: {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-100%)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+        slideBottom: {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(200%)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        slideUp: {
+          "0%": {
+            transform: "translateY(200%)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateY(0)",
+            opacity: "1",
+          },
+        },
+        slideUpHigher: {
+          "0%": {
+            transform: "translateY(200%)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateY(0)",
+            opacity: "1",
+          },
+        },
+        slideDiagonal: {
+          "0%": {
+            transform: "translate(-200%, 200%)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translate(0, 0)",
+            opacity: "1",
+          },
+        },
+        spinBackForth: {
+          "0%": {
+            transform: "rotate(0deg)",
+          },
+          "50%": {
+            transform: "rotate(25deg)",
+          },
+          "100%": {
+            transform: "rotate(0deg)",
+          },
+        },
+      },
     },
   },
   plugins: [],

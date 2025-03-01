@@ -3,7 +3,7 @@ import Title from "./Title";
 
 const Research = () => {
   return (
-    <div className="text-[#112269] px-10">
+    <div className="text-[#112269] px-10" id="research">
       <Title title={"My Work"} subTitle={"Research"} />
       <div className="max-w-[1200px] mx-auto grid grid-cols-auto gap-10">
         <Article />

@@ -2,7 +2,7 @@ import Title from "./Title";
 
 const Contact = () => {
   return (
-    <section className="pt-20 text-[#112269]">
+    <section className="pt-20 text-[#112269]" id="contact">
       <Title title="CONTACT" subTitle="LET'S CONNECT" />
       {/* Container */}
       <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">

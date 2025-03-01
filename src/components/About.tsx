@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <Title title="INTRODUCTION" subTitle="ABOUT ME" />
-      <section className="text-[#112269]">
+      <section className="text-[#112269]" id="about">
         <div className="mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:py-20">
           <div className="grid gap-12 sm:gap-20 lg:grid-cols-2">
             <div className="flex flex-col items-start gap-2">
